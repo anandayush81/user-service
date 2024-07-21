@@ -9,6 +9,7 @@ public class ApplicationConfiguration {
 
     @Bean
     public BCryptPasswordEncoder createBCryptPasswordEncoder() {
+        //just added a comment for git here
         return new BCryptPasswordEncoder();
     }
 }
